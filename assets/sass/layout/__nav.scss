@@ -1,0 +1,25 @@
+.navbar {
+  border-bottom: solid 1px rgb(100, 94, 94);
+}
+.navbar-brand {
+  & h1 {
+    font-family: $gobcl;
+    font-size: $x-large;
+    white-space: normal;
+    color: rgb(100, 94, 94);
+    width: 500px;
+    margin-top: 6px;
+    margin-left: 10px;
+  }
+}
+.logo {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    & h1 {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "gobcl";
+  src: url("../../../assets/fonts/gobCL_Regular.otf");
+}
+@font-face {
+  font-family: "gobcl-heavy";
+  src: url("../../../assets/fonts/gobCL_Bold.otf");
+}
+@font-face {
+  font-family: "gobcl-light";
+  src: url("../../../assets/fonts/gobCL_Light.otf");
+}
+$gobcl: "gobcl", sans-serif;
+$gobcl-heavy: "gobcl-heavy", sans-serif;
+$gobcl-light: "gobcl-light", sans-serif;
+
+$xxxxx-large: 50px;
+$xxxx-large: 45px;
+$xxx-large: 40px;
+$xx-large: 35px;
+$x-large: 30px;
+$large: 20px;
+$medium: 16px;
+$small: 14px;
+$x-small: 12px;

@@ -1,0 +1,39 @@
+.impact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  & h3 {
+    font-family: $gobcl-light;
+    font-size: $xx-large;
+    max-width: 700px;
+    color: #4a1f6d;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+}
+.impact__item {
+  display: flex;
+  flex-direction: row;
+  & h3 {
+    width: auto;
+    margin-top: 0px;
+  }
+  & p {
+    margin-left: 15px;
+    max-width: 300px;
+    text-align: start;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .impact {
+    margin-left: 15px;
+    margin-right: 15px;
+    & h3 {
+      font-size: $large;
+    }
+  }
+}
