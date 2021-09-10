@@ -1,14 +1,14 @@
 @font-face {
   font-family: "gobcl";
-  src: url("../../../assets/fonts/gobCL_Regular.otf");
+  src: url("../../assets/fonts/gobCL_Regular.otf");
 }
 @font-face {
   font-family: "gobcl-heavy";
-  src: url("../../../assets/fonts/gobCL_Bold.otf");
+  src: url("../../assets/fonts/gobCL_Bold.otf");
 }
 @font-face {
   font-family: "gobcl-light";
-  src: url("../../../assets/fonts/gobCL_Light.otf");
+  src: url("../../assets/fonts/gobCL_Light.otf");
 }
 .navbar {
   border-bottom: solid 1px #645e5e;
